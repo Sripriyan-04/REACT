@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    background: green;
+}
+ nav{
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+}
+nav ul li {
+    margin: 0 5px;
+
+}
+nav ul li a {
+    text-decoration: none;
+    padding: 0.3rem 1.3rem;
+    font-size: 17px;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    position: relative;
+    z-index: 1;
+   
+}
+nav ul li a {
+    display: inline-block;
+    color: white;
+    background: #000000b8;
+    border: 1px solid transparent;
+    padding: 12px 30px ;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    transition:all .55s ease ;
+
+}
+nav ul li a:hover{
+    background: transparent;
+    border: 1px solid white;
+    transform:translatez(10px)
+}
+.logo{
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+.image-bottle img{
+  margin-top: 10%;
+  margin-left: 5%;
+}
+.main-content{
+    width: 70%;
+    padding-top: 100px;
+    margin-left: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.image-bottle, .main-text {
+    flex-basis: 50%;
+    margin-top: 1%;
+}
+.main-content h1{
+    font-size: 60px;
+    letter-spacing: 1px;
+    color:#ffffff ;
+
+}
+.main-content h2{
+    font-size: 60px;
+    letter-spacing: 1px;
+    color:#ffffff ;
+}
+.main-content p{
+    font-size: 20px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+    color:#070707 ;
+}
+.main-content button{
+    margin-top: 2.5rem;
+    outline: none;
+    border: none;
+    font-size:18px;
+    padding: 0.5rem 2.5rem 0.5rem 1rem;
+    border-radius: 0 50% 50% 0 ;
+    background-color: #000000;
+    color: #ffffff;
+    cursor:pointer;
+    
+}
+.main-content button:hover {
+    background: transparent;
+    border: 1px solid white;
+    transform:translatez(10px)
+}
+
+
+
+.swiper{
+    width: 20rem;
+}
+.swiper-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.right{
+    position: absolute;
+    right: 1%;
+    bottom: 20%;
+}
+.box{
+  margin-right: .5rem;
+}
+
+.box .inner-box{
+    margin: 1.5rem 0 0 .45rem;
+    margin-top: 30%;
+}
+.box .inner-box p{
+    font-size: 13px;
+    font-weight: 500;
+}
+.social-links{
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    
+}
+.social-links::before{
+    content: "";
+    width: 80%;
+    height: 3px;
+    position: absolute;
+    top:42%;
+    left: -150px;
+}
+.social-links i {
+    padding: 5px 5px ;
+    border-radius: 30px;
+    background: #00ff04b8;
+    transition:all .55s ease ;
+}
+.social-links i:hover {
+    background: transparent;
+    border: 1px solid white;
+    transform:translatez(10px)
+    
+}
